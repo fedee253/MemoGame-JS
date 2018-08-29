@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Memo Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="memogueim.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="titulo"><h1>Memo Game</h1></div>
+
+        <div class="cartas">
+            <div class="carta" onclick="Carta(1,101)"><img src="https://image.flaticon.com/icons/png/512/36/36601.png" id="1"><img src="img_logos/img/chrome.svg" id="101" style= "opacity:0" >    </div>
+            <div class="carta"onclick="Carta(2,102)"><img src="https://image.flaticon.com/icons/png/512/36/36601.png" id="2"><img src="img_logos/img/firefox.svg" id="102"style= "opacity:0"></div>
+            <div class="carta"onclick="Carta(3,103)"><img src="https://image.flaticon.com/icons/png/512/36/36601.png" id="3"><img src="img_logos/img/opera.svg" id="103"style= "opacity:0"></div>
+            <div class="carta"onclick="Carta(4,104)"><img src="https://image.flaticon.com/icons/png/512/36/36601.png" id="4"><img src="img_logos/img/facebook.svg" id="104"style= "opacity:0"></div>
+            <div class="carta"onclick="Carta(5,105)"><img src="https://image.flaticon.com/icons/png/512/36/36601.png" id="5"><img src="img_logos/img/html-5.svg" id="105" style= "opacity:0"></div>
+            <div class="carta"onclick="Carta(6,106)"><img src="https://image.flaticon.com/icons/png/512/36/36601.png" id="6"><img src="img_logos/img/instagram-icon.svg"id="106"style= "opacity:0"></div>
+            <div class="carta"onclick="Carta(8,108)"><img src="https://image.flaticon.com/icons/png/512/36/36601.png" id="8"><img src="img_logos/img/internetexplorer.svg" id="108" style= "opacity:0"> </div>
+            <div class="carta"onclick="Carta(9,109)"><img src="https://image.flaticon.com/icons/png/512/36/36601.png" id="9"><img src="img_logos/img/chrome.svg"id="109" style= "opacity:0"></div>
+            <div class="carta"onclick="Carta(10,110)"><img src="https://image.flaticon.com/icons/png/512/36/36601.png" id="10"><img src="img_logos/img/instagram-icon.svg"id="110"style= "opacity:0" ></div>
+            <div class="carta"onclick="Carta(11,111)"><img src="https://image.flaticon.com/icons/png/512/36/36601.png" id="11"><img src="img_logos/img/facebook.svg"id="111" style= "opacity:0"></div>
+            <div class="carta"onclick="Carta(12,112)"><img src="https://image.flaticon.com/icons/png/512/36/36601.png" id="12"><img src="img_logos/img/firefox.svg"id="112" style= "opacity:0"></div>
+            <div class="carta"onclick="Carta(13,113)"><img src="https://image.flaticon.com/icons/png/512/36/36601.png" id="13"><img src="img_logos/img/javascript.svg"id="113" style= "opacity:0"></div>
+            <div class="carta"onclick="Carta(14,114)"><img src="https://image.flaticon.com/icons/png/512/36/36601.png" id="14"><img src="img_logos/img/internetexplorer.svg"id="114"style= "opacity:0" ></div>
+            <div class="carta"onclick="Carta(15,115)"><img src="https://image.flaticon.com/icons/png/512/36/36601.png" id="15"><img src="img_logos/img/opera.svg"id="115"style= "opacity:0" ></div>
+            <div class="carta"onclick="Carta(16,116)"><img src="https://image.flaticon.com/icons/png/512/36/36601.png" id="16"><img src="img_logos/img/html-5.svg"id="116" style= "opacity:0"></div>
+            <div class="carta"onclick="Carta(17,117)"><img src="https://image.flaticon.com/icons/png/512/36/36601.png" id="17"><img src="img_logos/img/javascript.svg"id="117" style= "opacity:0"></div>
+         </div>
+
+         <div class="pie">
+             <div class="contador">Intentos Restantes <span id="90">10</span></div>
+         </div>
+
+         <div class="boton">  <button type="button" onclick="Reset()">REZETT</button>   </div>
+
+
+    </div>
+</body>
+</html>
